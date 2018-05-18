@@ -1,17 +1,17 @@
 # Ensamblado de Genomas
 ## Instalación de dependencias del SO
-		sudo apt-ge	install python-tk python-dev virtualenv
-		python -mpip install matplotlib
+	sudo apt-get install python-tk python-dev virtualenv
+	python -mpip install matplotlib
 
 ## Crear entorno virtual y activar
-		virtualenv myenv
-		source myenv/bin/activate
+	virtualenv myenv
+	source myenv/bin/activate
 
 ## Instalación de dependencias de python 2.7
-		pip install -r requirements.txt
+	pip install -r requirements.txt
 
 ## Ejecutar el ensamblador
-		python main.py <nombre_archivo.fa> <tamanho_kmeros>
+	python main.py <nombre_archivo.fa> <tamanho_kmeros>
 
 ## Ejemplos
 
@@ -26,6 +26,6 @@
     python main.py data/read50x_ref10K_e001.fasta 25
 
 ## Archivos de salida
-    contig.fa
-    graph.png
-    informe.html
+    output/contig.fa
+    output/graph.png
+    output/informe.html
